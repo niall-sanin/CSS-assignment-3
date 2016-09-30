@@ -7,7 +7,8 @@
 body {
     background: #b3dbe8;
     color: #000;
-    font-family: sans-serif; /*   add fonts here   */
+    font-family: Merriweather, Cambria, serif;
+    font-family: Pavanam, Calibri, sans-serif;/*   add fonts here   */
     font-size: 100%; /* DO NOT change */
     margin: 0; /* DO NOT change */
 }
@@ -111,3 +112,20 @@ aside a:focus, aside a:hover {
 }
 
 /* media queries */
+@media (max-width: 800px) {
+  #container {
+    margin: 0;
+}
+  #top-image-container {
+    display: none;
+}
+
+aside, article {
+  width: 100%;
+  margin: 0;
+}
+
+#sidebar2 {
+  margin: 0;
+}
+}
